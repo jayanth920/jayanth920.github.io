@@ -1,10 +1,19 @@
 .aboutMeText {
     font-family: "Popfun";
-    font-size: 8rem;
+    font-size: 7rem;
     color: black;
     width: fit-content;
     height: fit-content;
     position: absolute;
     margin-left: 20px;
+    margin-top: 10px;
     letter-spacing: 10px;
+  }
+
+  .arrow_img{
+    height: 20vh;
+    width: 20vw;
+    position: absolute;
+    left: 30vw;
+    top: 20vh;
   }
