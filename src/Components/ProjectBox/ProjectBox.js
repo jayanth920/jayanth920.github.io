@@ -25,7 +25,7 @@ function ProjectBox() {
       <button className='show_btn' onClick={handleToggleShow}>
         {showAllProjects ? 'Show Less' : 'Show More'}
       </button>
-      {showAllProjects ? <div id='more'>The list gets updated regularly with new projects. Check back again soon !</div> : null }
+    <div id='more'>The list gets updated regularly with new projects. Check back again soon !</div>
     </div>
   );
 }

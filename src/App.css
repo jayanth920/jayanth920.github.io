@@ -1,3 +1,6 @@
+html{
+    cursor: url(./assets/cursors/windows95-cursor.png),auto;
+}
 body::-webkit-scrollbar {
     width: 12px; /* Set the width of the scrollbar */
 }
@@ -15,5 +18,5 @@ body::-webkit-scrollbar-track {
 body{
     --scroll: 0;
     overflow-x: hidden;
-
+    cursor: url(./assets/cursors/windows95-cursor.png),auto;
 }

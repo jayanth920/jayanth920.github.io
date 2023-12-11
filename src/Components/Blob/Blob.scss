@@ -1,12 +1,5 @@
 
-.blob_wrap {
-    position: absolute;
-    height: 20vh;
-    top:1rem;
-    left: 20vh;
-  }
-  
-  .circle {
+ .circle {
     position: absolute;
     top:40vh;
     left: 40vh;
@@ -35,4 +28,12 @@
     67% {
       border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
     }
+  }
+
+  @media (max-width: 900px) {
+    .circle {
+      top: 40vh;
+      left: 62vw; /* Stack the sections vertically on smaller screens */
+    }
+
   }

@@ -1,5 +1,6 @@
 .prjBanner {
     width: 100vw;
+    cursor: url(../../assets/cursors/windows95-cursor.png),auto;
   }
 
   .prjBanner_text{

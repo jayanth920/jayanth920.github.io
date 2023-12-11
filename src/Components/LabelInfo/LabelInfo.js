@@ -1,5 +1,4 @@
 import "./LabelInfo.css"
-import Draggable from 'react-draggable';
 
 const LabelInfo = () => {
   return (
