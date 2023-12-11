@@ -1,12 +1,9 @@
-
+import ProjectBanner from '../../Components/ProjectBanner/ProjectBanner'
 
 function Projects() {
   return (
-    <div>
-      <div>Projects</div>
-      <div>Projects</div>
-      <div>Projects</div>
-      <div>Projects</div>
+    <div className="projects">
+      <ProjectBanner/>
     </div>
 
   )

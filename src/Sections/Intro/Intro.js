@@ -3,6 +3,7 @@ import './Intro.css';
 import { DraggableNew } from '../../Components/Draggable/DraggableNew';
 import { DraggableBox } from '../../Components/Draggable/DraggableBox';
 import AboutMe from '../../Components/AboutMe/AboutMe';
+import Blob from '../../Components/Blob/Blob';
 import CursorAnim from '../../Components/CursorAnim/CursorAnim';
 
 function Intro() {
@@ -11,8 +12,8 @@ function Intro() {
       <DraggableNew />
       <DraggableBox />
       <div className="about">
-
       <AboutMe />
+      <Blob />
       </div>
     </div>
   );

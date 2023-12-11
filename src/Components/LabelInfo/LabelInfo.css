@@ -1,7 +1,8 @@
 .labelInfo{
-    height: fit-content;
+    top: 30vh;
     width: 100vw;
-    top: 68vh;
+    position: absolute;
+    height: fit-content;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -11,27 +12,27 @@
 .left{
     position:absolute;
     top: 35vh;
+    height: fit-content;
+    width: fit-content;
     margin: 1rem 2rem 1rem 1rem;
     max-width: 15ch;
     min-width: 12ch;
-    font-size: 35px;
-    text-align: start;
+    font-size: 25px;
+    font-weight: 900;
     line-height: 1.1;
     overflow: hidden;
-    font-weight: 900;
-    height: fit-content;
-    width: fit-content;
 
 }
 .right{
     position: absolute;
-    top: 37%;
-    right: 20%;
+    top: 36vh;
+    right: 20vw;
     height: fit-content;
     width: fit-content;
     max-width: 15ch;
     min-width: 12ch;
-    font-size: 35px;
+    font-weight: 900;
+    font-size: 25px;
     line-height: 1.1;
     overflow: hidden;
 }

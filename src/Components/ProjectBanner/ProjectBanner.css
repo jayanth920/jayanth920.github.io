@@ -1,0 +1,14 @@
+.prjBanner {
+    width: 100vw;
+    border-bottom: 5px solid black
+  }
+
+  .prjBanner_text{
+    font-family: "Beatrice";
+    font-size: 6rem;
+    color: black;
+    width: fit-content;
+    height: fit-content;
+    letter-spacing: 10px;
+    margin: 60px 0px 40px 60px;
+  }

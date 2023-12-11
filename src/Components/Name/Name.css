@@ -13,13 +13,16 @@
     flex-wrap: wrap;
 }
 .name{
-    font-family:"Popfun";
-    font-size: 120px;
+    font-family:"Beatrice";
+    font-weight: 900;
+    font-size: 100px;
+    margin-top: -20px;
     margin-left: 15px ;
     user-select: none;
     overflow: hidden;
     cursor: url(../../assets/cursors/windows95-cursor.png),auto;
-    letter-spacing: 8px;
+    letter-spacing: -1px;
+
 }
 
 .title{

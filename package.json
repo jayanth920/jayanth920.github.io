@@ -15,6 +15,7 @@
     "react-draggable": "^4.4.6",
     "react-fast-marquee": "^1.6.2",
     "react-scripts": "5.0.1",
+    "sass": "^1.69.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
