@@ -1,15 +1,16 @@
 .labelInfo{
     height: fit-content;
     width: 100vw;
-    position: absolute;
     top: 68vh;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     pointer-events: none;
-
 }
 
 .left{
+    position:absolute;
+    top: 35vh;
     margin: 1rem 2rem 1rem 1rem;
     max-width: 15ch;
     min-width: 12ch;
@@ -22,13 +23,28 @@
     width: fit-content;
 
 }
-
 .right{
+    position: absolute;
+    top: 37%;
+    right: 20%;
+    height: fit-content;
+    width: fit-content;
     max-width: 15ch;
     min-width: 12ch;
     font-size: 35px;
-    position:absolute;
     line-height: 1.1;
-    font-weight: 900;
     overflow: hidden;
 }
+
+@media (max-width: 900px) {
+    .labelInfo {
+      flex-direction: column; /* Stack the sections vertically on smaller screens */
+    }
+  
+    .right {
+      top: unset; /* Remove top positioning to allow it to flow below */
+      top: 60vh; /* Add margin to separate left and right sections */
+      left: 20px;
+      margin-top: 20px;
+    }
+  }

@@ -4,17 +4,18 @@
 }
 
 .newSticker {
+    position:absolute;
     overflow: visible;
     width: 20vw;
     padding-top: 30px;
-
+    left: 85vw;
 }
 
 .close {
-    position: relative;
-    height: 29px;
+    position: absolute;
+    height: 30px;
     width: 28px;
-    top: -133px;
+    top: 26px;
     left: 126px;
     background: black;
     border-radius: 50%;
@@ -30,4 +31,10 @@
 /* Set transform origin to the center of the new image */
 .newSticker svg {
     transform-origin: center center;
+}
+@media (max-width: 900px) {
+    .newSticker {
+      right: 40px;
+      height: 50px;/* Stack the sections vertically on smaller screens */
+    }
 }

@@ -1,13 +1,16 @@
 import './AboutMe.css'
 import Draggable from 'react-draggable';
+import LabelInfo from '../LabelInfo/LabelInfo';
 
 
 function AboutMe() {
   return (
+      <div className='aboutMe'>
     <Draggable>
-        <div className='aboutMe'>About Me</div>
-
+        <div className='aboutMeText'>About Me...</div>
     </Draggable>
+        <LabelInfo/>
+        </div>
   )
 }
 
