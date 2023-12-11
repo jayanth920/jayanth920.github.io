@@ -1,0 +1,10 @@
+.aboutMe {
+    font-family: "Popfun";
+    font-size: 10rem;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    left: 57vw;
+    bottom: 50vh;
+    letter-spacing: 10px; 
+}

@@ -4,7 +4,7 @@ import Name from "../../Components/Name/Name";
 
 function Header() {
   return (
-<div>
+<div className="Header">
 <Runner/>
 <Name/>
 </div>

@@ -5,8 +5,6 @@
 .name__wrap{
     height: 7rem;
     width: 100vw;
-    font-family:"Popfun";
-    font-size: 100px;
     border-bottom: 5px solid black;
     cursor: url(../../assets/cursors/windows95-cursor.png),auto;
     user-select: none;
@@ -24,7 +22,6 @@
     overflow: hidden;
     cursor: url(../../assets/cursors/windows95-cursor.png),auto;
     letter-spacing: -1px;
-
 }
 
 .title{

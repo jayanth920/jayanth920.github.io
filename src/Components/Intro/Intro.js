@@ -1,20 +1,19 @@
-import React from 'react'
-import './Intro.css'
-import {DraggableNew} from '../Draggable/DraggableNew'
-import {DraggableBox} from '../Draggable/DraggableBox'
-import LabelInfo from "../LabelInfo/LabelInfo"
-// import MyPic from '../MyPic/MyPic'
+import React from 'react';
+import './Intro.css';
+import { DraggableNew } from '../Draggable/DraggableNew';
+import { DraggableBox } from '../Draggable/DraggableBox';
+import LabelInfo from '../LabelInfo/LabelInfo';
+import AboutMe from '../AboutMe/AboutMe';
 
 function Intro() {
-
   return (
     <div className="intro_wrap">
       <DraggableNew />
-      <DraggableBox/>
-      <LabelInfo/>
-      {/* <MyPic/> */}
+      <DraggableBox />
+      <AboutMe />
+      <LabelInfo />
     </div>
-  )
+  );
 }
 
-export default Intro
+export default Intro;

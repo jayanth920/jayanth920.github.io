@@ -8,4 +8,8 @@
   -o-user-drag: none;
   scroll-behavior: smooth;
 }
+@font-face{
+  font-family: "Popfun";
+  src: url(./assets/fonts/Popfun-Extrude.otf);
+}
 
