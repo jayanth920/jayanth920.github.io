@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/jayanth920.github.io/static/css/main.d15f27da.css",
-    "main.js": "/jayanth920.github.io/static/js/main.2f307bd0.js",
+    "main.css": "/jayanth920.github.io/static/css/main.f2e978cf.css",
+    "main.js": "/jayanth920.github.io/static/js/main.cdee06f5.js",
+    "static/media/Img2.png": "/jayanth920.github.io/static/media/Img2.232d9a44ebf98f9b58d4.png",
     "static/media/Popfun-Extrude.otf": "/jayanth920.github.io/static/media/Popfun-Extrude.ac56e70e85cbe0715643.otf",
     "static/media/new.svg": "/jayanth920.github.io/static/media/new.ff767c859917f82fcb616a98d76c1da3.svg",
     "index.html": "/jayanth920.github.io/index.html",
-    "main.d15f27da.css.map": "/jayanth920.github.io/static/css/main.d15f27da.css.map",
-    "main.2f307bd0.js.map": "/jayanth920.github.io/static/js/main.2f307bd0.js.map"
+    "main.f2e978cf.css.map": "/jayanth920.github.io/static/css/main.f2e978cf.css.map",
+    "main.cdee06f5.js.map": "/jayanth920.github.io/static/js/main.cdee06f5.js.map"
   },
   "entrypoints": [
-    "static/css/main.d15f27da.css",
-    "static/js/main.2f307bd0.js"
+    "static/css/main.f2e978cf.css",
+    "static/js/main.cdee06f5.js"
   ]
 }
