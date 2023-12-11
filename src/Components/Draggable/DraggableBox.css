@@ -1,0 +1,49 @@
+#box {
+    background: #0a0a0a;
+    box-shadow: 8px 8px #0a0a0a;
+    color: #fff;
+    position: absolute;
+    top: 160px;
+    right: 20px;
+    width: 200px;
+    height: 200px;
+    padding: 15px;
+    overflow: hidden;
+    cursor: url(../../assets/cursors/windows95-grab.png), auto;
+  }
+  
+  #box:before {
+    content: "";
+    position: absolute;
+    width: 150%;
+    height: 150%;
+    background: repeating-linear-gradient(#fff 0%, #fff 7.5px, #0a0a0a 7.5px, #0a0a0a 15px, #fff 15px, #fff 22.5px, #0a0a0a 22.5px, #0a0a0a 30px);
+    transform: translate(-20%) translateY(-20%) rotate(-45deg);
+    animation: animate 20s linear infinite;
+  }
+  
+  @keyframes animate {
+    0% {
+        background-position: 0;
+    }
+    
+    100% {
+        background-position: 0 450px;
+    }
+  }
+  
+  #box .content {
+    position: relative;
+    background-color: #0a0a0a;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    font-family: "Beatrice";
+    font-size: 15px;
+    z-index: 2;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

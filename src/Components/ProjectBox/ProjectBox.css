@@ -32,12 +32,69 @@
     background-color: rgb(255,201,0);
     border-top: 2.5px solid black;
     border-right: 2.5px solid black;
-    border-bottom: 5px solid black;
+    border-bottom: 2.5px solid black;
   }
   .project:nth-child(4) {
     /* Styles for the second .project */
     background-color: rgb(220, 75, 210);
     border-top: 2.5px solid black;
     border-left: 2.5px solid black;
+    border-bottom: 2.5px solid black;
+  }
+  
+
+  .project:nth-child(5) {
+    /* Styles for the second .project */
+    background-color: rgb(255,112,81);
+    border-top: 2.5px solid black;
+    border-right: 2.5px solid black;
+    border-bottom: 2.5px solid black;
+  }
+
+  .project:nth-child(6) {
+    /* Styles for the second .project */
+    background-color: rgb(61,207,193);
+    border-top: 2.5px solid black;
+    border-left: 2.5px solid black;
+    border-bottom: 2.5px solid black;
+  }
+  .project:nth-child(7) {
+    /* Styles for the second .project */
+    background-color: rgb(255,201,0);
+    border-top: 2.5px solid black;
+    border-right: 2.5px solid black;
     border-bottom: 5px solid black;
   }
+  .project:nth-child(8) {
+    /* Styles for the second .project */
+    background-color: rgb(220, 75, 210);
+    border-top: 2.5px solid black;
+    border-left: 2.5px solid black;
+    border-bottom: 5px solid black;
+  }
+
+  .show_btn {
+    margin: 0;
+    width: 100vw;
+    height: 4rem;
+    text-align: center;
+    font-family: "Beatrice";
+    background: black;
+    color: white;
+    font-size: 1rem;
+    font-weight: bolder;
+    border: none;  /* Remove borders */
+    outline: none; /* Remove focus outline */
+    box-shadow: none; /* Remove any box shadows */
+  }
+
+  #more {
+    width:100vw;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 0.2em solid #0a0a0a;
+    border-top: 0.2em solid #0a0a0a;
+    margin-top: -1.5px;
+    font-family: "Beatrice";
+    font-size: 1.5em;
+}

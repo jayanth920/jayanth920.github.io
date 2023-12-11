@@ -7,7 +7,12 @@ export const DraggableBox = () => {
   return (
     <Draggable ref={ref}>
 
-  <div id='box'></div>
+  <div id='box'>
+  <div class="content">
+        <p>FRONT-END</p>
+        <p>🤍</p>
+        </div>
+  </div>
 
     </Draggable>
   );

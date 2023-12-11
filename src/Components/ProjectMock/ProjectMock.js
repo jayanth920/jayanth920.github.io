@@ -1,4 +1,4 @@
-const mockProjects = [
+const ProjectMock = [
     {
       id: 1,
       name: 'Project 1',
@@ -57,5 +57,5 @@ const mockProjects = [
     },
   ];
   
-  export default mockProjects;
+  export default ProjectMock;
   
