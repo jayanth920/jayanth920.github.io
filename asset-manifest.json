@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/jayanth920.github.io/static/css/main.d15f27da.css",
+    "main.js": "/jayanth920.github.io/static/js/main.2f307bd0.js",
+    "static/media/Popfun-Extrude.otf": "/jayanth920.github.io/static/media/Popfun-Extrude.ac56e70e85cbe0715643.otf",
+    "static/media/new.svg": "/jayanth920.github.io/static/media/new.ff767c859917f82fcb616a98d76c1da3.svg",
+    "index.html": "/jayanth920.github.io/index.html",
+    "main.d15f27da.css.map": "/jayanth920.github.io/static/css/main.d15f27da.css.map",
+    "main.2f307bd0.js.map": "/jayanth920.github.io/static/js/main.2f307bd0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d15f27da.css",
+    "static/js/main.2f307bd0.js"
+  ]
+}
