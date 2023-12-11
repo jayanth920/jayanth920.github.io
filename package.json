@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://jayanth920.github.io/jayanth920.github.io",
+  "homepage": "https://jayanth920.github.io/",
   "private": true,
   "dependencies": {
     "@react-spring/parallax": "^9.7.3",

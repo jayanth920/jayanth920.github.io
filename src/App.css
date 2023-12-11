@@ -1,3 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    scroll-behavior: smooth;
+  }
+
 html{
     cursor: url(./assets/cursors/windows95-cursor.png),auto;
 }
@@ -20,3 +31,17 @@ body{
     overflow-x: hidden;
     cursor: url(./assets/cursors/windows95-cursor.png),auto;
 }
+@font-face{
+    font-family: "Popfun";
+    src: url(./assets/fonts/Popfun-Extrude.otf);
+  }
+  
+  @font-face{
+    font-family: "Beatrice";
+    src: url(./assets/fonts/Beatrice.otf);
+  }
+  
+  @font-face{
+    font-family: "BeatriceDeck";
+    src: url(./assets/fonts/BeatriceDeck.otf);
+  }
