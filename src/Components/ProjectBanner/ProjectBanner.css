@@ -1,11 +1,10 @@
 .prjBanner {
     width: 100vw;
-    border-bottom: 5px solid black
   }
 
   .prjBanner_text{
     font-family: "Beatrice";
-    font-size: 6rem;
+    font-size: 4rem;
     color: black;
     width: fit-content;
     height: fit-content;

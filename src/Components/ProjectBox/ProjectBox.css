@@ -1,0 +1,43 @@
+.project_wrap {
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    width:100vw;
+  }
+  
+  .project {
+    width: 50%;
+    height: 50vh;
+  }
+
+  .project:nth-child(1) {
+    /* Styles for the second .project */
+    background-color: rgb(255,112,81);
+    border-top: 5px solid black;
+    border-right: 2.5px solid black;
+    border-bottom: 2.5px solid black;
+  }
+
+  .project:nth-child(2) {
+    /* Styles for the second .project */
+    background-color: rgb(61,207,193);
+    border-top: 5px solid black;
+    border-left: 2.5px solid black;
+    border-bottom: 2.5px solid black;
+  }
+  .project:nth-child(3) {
+    /* Styles for the second .project */
+    background-color: rgb(255,201,0);
+    border-top: 2.5px solid black;
+    border-right: 2.5px solid black;
+    border-bottom: 5px solid black;
+  }
+  .project:nth-child(4) {
+    /* Styles for the second .project */
+    background-color: rgb(220, 75, 210);
+    border-top: 2.5px solid black;
+    border-left: 2.5px solid black;
+    border-bottom: 5px solid black;
+  }
