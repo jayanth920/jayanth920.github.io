@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/jayanth920.github.io/static/css/main.f2e978cf.css",
-    "main.js": "/jayanth920.github.io/static/js/main.cdee06f5.js",
-    "static/media/Img2.png": "/jayanth920.github.io/static/media/Img2.232d9a44ebf98f9b58d4.png",
-    "static/media/Popfun-Extrude.otf": "/jayanth920.github.io/static/media/Popfun-Extrude.ac56e70e85cbe0715643.otf",
-    "static/media/new.svg": "/jayanth920.github.io/static/media/new.ff767c859917f82fcb616a98d76c1da3.svg",
-    "index.html": "/jayanth920.github.io/index.html",
-    "main.f2e978cf.css.map": "/jayanth920.github.io/static/css/main.f2e978cf.css.map",
-    "main.cdee06f5.js.map": "/jayanth920.github.io/static/js/main.cdee06f5.js.map"
+    "main.css": "/static/css/main.47b2b9ef.css",
+    "main.js": "/static/js/main.92365cd4.js",
+    "static/media/Img2.png": "/static/media/Img2.232d9a44ebf98f9b58d4.png",
+    "static/media/Popfun-Extrude.otf": "/static/media/Popfun-Extrude.ac56e70e85cbe0715643.otf",
+    "static/media/new.svg": "/static/media/new.ff767c859917f82fcb616a98d76c1da3.svg",
+    "index.html": "/index.html",
+    "main.47b2b9ef.css.map": "/static/css/main.47b2b9ef.css.map",
+    "main.92365cd4.js.map": "/static/js/main.92365cd4.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2e978cf.css",
-    "static/js/main.cdee06f5.js"
+    "static/css/main.47b2b9ef.css",
+    "static/js/main.92365cd4.js"
   ]
 }
