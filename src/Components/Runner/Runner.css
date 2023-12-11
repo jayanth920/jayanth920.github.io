@@ -1,0 +1,12 @@
+.ticker__wrap{
+    width: 100vw;
+}
+.ticker__wrap .ticker__item {
+    display: inline-block;
+    font-size: 0.875rem;
+    font-family: "Beatrice";
+    line-height: 1.5rem;
+    white-space: nowrap;
+    font-weight: 500;
+    cursor: url(../../assets/cursors/windows95-cursor.png),auto;
+}

@@ -1,0 +1,16 @@
+.picContainer {
+    width: 20rem;
+    height: 35rem;
+    top: 6rem;
+    left: 15rem;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Add overflow property to ensure images are clipped to the container size */
+  }
+  
+  .picContainer img {
+    width: 100%; /* Set the width to 100% of the parent container */
+    height: 100%; /* Set the height to 100% of the parent container */
+  }
+  

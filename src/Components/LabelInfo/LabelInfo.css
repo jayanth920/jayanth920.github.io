@@ -1,0 +1,32 @@
+.labelInfo{
+    height: 20rem;
+    width: 100vw;
+    position: absolute;
+    top: 68vh;
+    display: flex;
+    justify-content: space-between;
+    pointer-events: none;
+
+}
+
+.left{
+    margin: 1rem 2rem 1rem 1rem;
+    max-width: 15ch;
+    min-width: 12ch;
+    font-size: 20px;
+    text-align: start;
+    line-height: 1.1;
+    overflow: hidden;
+
+}
+
+.right{
+    max-width: 15ch;
+    min-width: 12ch;
+    font-size: 20px;
+    position:absolute;
+    line-height: 1.1;
+    right: 20%;
+    top: 10%;
+    overflow: hidden;
+}

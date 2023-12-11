@@ -1,0 +1,33 @@
+.new {
+    cursor: url(../../assets/cursors/windows95-grab.png), auto;
+    overflow: visible;
+}
+
+.newSticker {
+    overflow: visible;
+    width: 20vw;
+    padding-top: 30px;
+
+}
+
+.close {
+    position: relative;
+    height: 29px;
+    width: 28px;
+    top: -133px;
+    left: 126px;
+    background: black;
+    border-radius: 50%;
+    border: 3px solid black;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+.close:hover {
+    cursor: url(../../assets/banners/closeHover2.png) 10 10, auto; /* Use the actual path to your small image */
+}
+
+/* Set transform origin to the center of the new image */
+.newSticker svg {
+    transform-origin: center center;
+}

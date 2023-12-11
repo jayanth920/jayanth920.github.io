@@ -1,0 +1,42 @@
+@font-face{
+    font-family: "Popfun";
+    src: url(../../assets/fonts/Popfun-Extrude.otf);
+}
+.name__wrap{
+    height: 7rem;
+    width: 100vw;
+    font-family:"Popfun";
+    font-size: 100px;
+    border-bottom: 5px solid black;
+    cursor: url(../../assets/cursors/windows95-cursor.png),auto;
+    user-select: none;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+.name{
+    font-family:"Beatrice";
+    font-weight: 900;
+    font-size: 100px;
+    margin-top: -20px;
+    margin-left: 15px ;
+    user-select: none;
+    overflow: hidden;
+    cursor: url(../../assets/cursors/windows95-cursor.png),auto;
+    letter-spacing: -1px;
+
+}
+
+.title{
+    font-size: 1rem;
+    font-family: "Beatrice",sans-serif;
+    box-sizing: border-box;
+    position: absolute;
+    top: 6rem;
+    right: 2rem;
+    line-height: 3rem;
+    white-space: nowrap;
+    font-weight: 500;
+    
+
+}
