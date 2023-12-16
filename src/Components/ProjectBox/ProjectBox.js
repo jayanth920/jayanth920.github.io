@@ -6,9 +6,9 @@ function ProjectBox() {
   const projectsToShowInitially = 4;
   const [showAllProjects, setShowAllProjects] = useState(false);
 
-  const handleToggleShow = () => {
-    setShowAllProjects((prev) => !prev);
-  };
+//   const handleToggleShow = () => {
+//     setShowAllProjects((prev) => !prev);
+//   };
 
   const projectsToDisplay = showAllProjects ? ProjectMock : ProjectMock.slice(0, projectsToShowInitially);
 
@@ -22,9 +22,9 @@ function ProjectBox() {
           <p>Description: {project.description}</p>
         </div>
       ))}
-      <button className='show_btn' onClick={handleToggleShow}>
+      {/* <button className='show_btn' onClick={handleToggleShow}>
         {showAllProjects ? 'Show Less' : 'Show More'}
-      </button>
+      </button> */}
     <div id='more'>The list gets updated regularly with new projects. Check back again soon !</div>
     </div>
   );

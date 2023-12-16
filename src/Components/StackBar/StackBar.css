@@ -1,0 +1,66 @@
+
+.stack_bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap:5px;
+  padding: 10px;
+  background-color: black;
+  border: 5px solid black;
+  font-family: "Beatrice";
+}
+
+.stack_bar div {
+  display: grid;
+  height: 150px;
+  place-items: center;
+  width: 150px;
+}
+
+.stack_bar p{
+    margin-bottom: 10px;
+}
+
+svg{
+    margin-top: 20px;
+}
+.circle .js{
+    background: #fffb00;
+}
+.circle .css{
+    background: #47b5ffe6;
+}
+.circle .html{
+    background: #f86c30e6;
+}
+.circle .react{
+    background: #5fefffe6;
+}
+.circle .node{
+    background: #31bf63e6;
+}
+.circle .mon{
+    background: #60ff11e6;
+}
+.circle .fire{
+    background: #ffcc00;
+}
+
+
+.circle {
+    border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
+    overflow: hidden;
+    animation: morph 3s linear infinite;
+  }
+  @keyframes morph{
+    0%, 100% {
+    border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
+    }
+    34% {
+      border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%;
+    }
+    67% {
+      border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+    }
+  }
