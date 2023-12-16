@@ -16,7 +16,7 @@ function ProjectBox() {
     <div className="project_wrap">
       {projectsToDisplay.map((project) => (
         <div className="project" key={project.id}>
-          {/* Render project details here */}
+            <div className="project_pic">{project.imageUrl}</div>
           <h2>{project.name}</h2>
           <p>Technologies: {project.technologies.join(', ')}</p>
           <p>Description: {project.description}</p>
