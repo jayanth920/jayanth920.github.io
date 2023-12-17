@@ -3,24 +3,24 @@
 const ProjectMock = [
     {
       id: 1,
-      name: 'Project 1',
-      technologies: ['React', 'Node.js', 'Express'],
+      name: 'CouchWatch',
+      technologies: ['ReactJS', 'RestAPI'],
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis eros vel elit consequat, et lacinia mi tincidunt.',
-      imageUrl: "https://i.imgur.com/cN1pdvg.png",
+      imageUrl: "https://i.imgur.com/2ZwKQ0u.png",
     },
     {
       id: 2,
-      name: 'Project 2',
-      technologies: ['Angular', 'Firebase'],
+      name: 'MEMORY CARD GAME',
+      technologies: ['HTML', 'CSS', 'Javascript'],
       description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In hac habitasse platea dictumst.',
-      imageUrl: "../../assets/myPics/todoApp.png",
+      imageUrl: "https://i.imgur.com/cN1pdvg.png",
     },
     {
       id: 3,
-      name: 'Project 3',
-      technologies: ['Vue.js', 'MongoDB'],
+      name: 'CHATIFY',
+      technologies: ['ReactJS', 'Firebase', 'Redux', 'Sass', 'CSS'],
       description: 'Fusce quis eros sit amet ex semper ultricies. Duis laoreet quam a lacus tincidunt, id iaculis sem suscipit.',
-      imageUrl: "../../assets/myPics/chatify.png",
+      imageUrl: "https://i.imgur.com/mlQ4vrY.png",
     },
     {
       id: 4,

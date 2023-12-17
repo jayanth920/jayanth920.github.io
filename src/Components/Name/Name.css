@@ -14,12 +14,11 @@
     font-weight: 900;
     font-size: 100px;
     margin-top: -20px;
-    margin-left: 15px ;
+    margin-left: 25px ;
     user-select: none;
     overflow: hidden;
     cursor: url(../../assets/cursors/windows95-cursor.png),auto;
     letter-spacing: -1px;
-
 }
 
 .title{
