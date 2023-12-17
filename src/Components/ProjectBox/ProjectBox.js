@@ -16,10 +16,12 @@ function ProjectBox() {
     <div className="project_wrap">
       {projectsToDisplay.map((project) => (
         <div className="project" key={project.id}>
-            <div className="project_pic">{project.imageUrl}</div>
-          <h2>{project.name}</h2>
-          <p>Technologies: {project.technologies.join(', ')}</p>
-          <p>Description: {project.description}</p>
+          <img className="project_pic" src={project.imageUrl} alt={project.name} />       
+            <div className="project_info">
+            <h2>{project.name}</h2><br></br>
+            <p>Technologies: {project.technologies.join(', ')}</p>
+            <p>Description: {project.description}</p>
+          </div>
         </div>
       ))}
       {/* <button className='show_btn' onClick={handleToggleShow}>

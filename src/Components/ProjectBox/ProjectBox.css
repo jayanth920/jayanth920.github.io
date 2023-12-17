@@ -10,8 +10,25 @@
   
   .project {
     width: 50vw;
-    height: 80vh;
+    height: 94vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
+
+
+  .project_info{
+    text-align: left;
+    margin-left: 20px;
+  }
+  
+    .project_pic{
+      height: 20rem;
+      width: 35rem;
+      border: 5px solid black;
+      box-shadow: 8px 8px #0a0a0a;
+    }
 
   .project:nth-child(1) {
     /* Styles for the second .project */
