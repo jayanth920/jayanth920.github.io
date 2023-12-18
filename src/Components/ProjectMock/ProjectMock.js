@@ -24,24 +24,17 @@ const ProjectMock = [
     },
     {
       id: 4,
-      name: 'Project 4',
-      technologies: ['Django', 'PostgreSQL'],
+      name: 'PORTFOLIO',
+      technologies: ['ReactJS', 'SASS'],
       description: 'Sed euismod sapien ut justo efficitur, a sollicitudin nulla iaculis. Cras non ullamcorper dolor.',
-      imageUrl: "../../assets/myPics/flipGame.png",
+      imageUrl: "https://i.imgur.com/O47JwDG.png",
     },
     {
       id: 5,
-      name: 'Project 5',
-      technologies: ['Express', 'MongoDB'],
+      name: 'ToDo App',
+      technologies: ['NodeJS', 'MongoDB', 'Javascript', 'HTML'],
       description: 'Vestibulum at metus nec odio fringilla scelerisque. Duis ullamcorper elit a turpis fringilla, eu ultricies sem euismod.',
-      imageUrl: 'https://example.com/project5.jpg',
-    },
-    {
-      id: 6,
-      name: 'Project 6',
-      technologies: ['React Native', 'Firebase'],
-      description: 'Maecenas sed justo nec sapien convallis aliquet. Fusce auctor tellus ut luctus facilisis.',
-      imageUrl: 'https://example.com/project6.jpg',
+      imageUrl: 'https://i.imgur.com/rcdlekz.png',
     },
   ];
   
