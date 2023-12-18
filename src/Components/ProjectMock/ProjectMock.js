@@ -10,17 +10,17 @@ const ProjectMock = [
     },
     {
       id: 2,
-      name: 'MEMORY CARD GAME',
-      technologies: ['HTML', 'CSS', 'Javascript'],
-      description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In hac habitasse platea dictumst.',
-      imageUrl: "https://i.imgur.com/cN1pdvg.png",
-    },
-    {
-      id: 3,
       name: 'CHATIFY',
       technologies: ['ReactJS', 'Firebase', 'Redux', 'Sass', 'CSS'],
       description: 'Fusce quis eros sit amet ex semper ultricies. Duis laoreet quam a lacus tincidunt, id iaculis sem suscipit.',
       imageUrl: "https://i.imgur.com/mlQ4vrY.png",
+    },
+    {
+      id: 3,
+      name: 'MEMORY CARD GAME',
+      technologies: ['HTML', 'CSS', 'Javascript'],
+      description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In hac habitasse platea dictumst.',
+      imageUrl: "https://i.imgur.com/cN1pdvg.png",
     },
     {
       id: 4,
