@@ -37,8 +37,9 @@ function ProjectBox() {
             <>
               <img className="project_pic" src={project.imageUrl} alt={project.name} />
               <div className="project_info">
-                <h2>{project.name}</h2><br></br>
+                <h2>{project.name}</h2>
                 <p>Technologies: {project.technologies.join(', ')}</p>
+                <div className='space'></div>
                 <p>Description: {project.description}</p>
               </div>
             </>
