@@ -83,7 +83,7 @@
 }
 
 .project:nth-child(2) .project_pic {
-  height: 22rem;
+  height: 23rem;
   width: 35rem;
   border: 5px solid black;
   box-shadow: 8px 8px #0a0a0a;
@@ -91,13 +91,13 @@
 
 .project:nth-child(3) .project_pic {
   height: 22rem;
-  width: 35rem;
+  width: 37rem;
   border: 5px solid black;
   box-shadow: 8px 8px #0a0a0a;
 }
 
 .project:nth-child(4) .project_pic {
-  height: 22rem;
+  height: 20rem;
   width: 38rem;
   border: 5px solid black;
   box-shadow: 8px 8px #0a0a0a;
