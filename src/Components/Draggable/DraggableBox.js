@@ -8,7 +8,7 @@ export const DraggableBox = () => {
     <Draggable ref={ref}>
 
   <div id='box'>
-  <div class="content">
+  <div className="content">
         <p>FRONT-END</p>
         <p>🤍</p>
         </div>
