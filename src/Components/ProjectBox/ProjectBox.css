@@ -31,17 +31,6 @@
   height:4vh;
 }
 
-.project_info:nth-child(1){
-  margin-left: 20px;
-  width:40vw;
-}
-
-
-.project_info:nth-child(2){
-  margin-left: 20px;
-  width:40vw;
-}
-
 
 .project:nth-child(1) {
   /* Styles for the second .project */
@@ -53,7 +42,6 @@
 }
 
 .project:nth-child(2) {
-  /* Styles for the second .project */
   background-color: rgb(61, 207, 193);
   border-top: 5px solid black;
   border-left: 2.5px solid black;
@@ -62,7 +50,6 @@
 }
 
 .project:nth-child(3) {
-  /* Styles for the second .project */
   background-color: rgb(255, 201, 0);
   border-top: 2.5px solid black;
   border-right: 2.5px solid black;
@@ -79,7 +66,6 @@
   border-right: 5px solid black;
 }
 
-
 .project:nth-child(5) {
   /* Styles for the second .project */
   background-color: rgb(255, 112, 81);
@@ -88,6 +74,35 @@
   border-bottom: 2.5px solid black;
   border-left: 5px solid black;
 }
+
+.project:nth-child(1) .project_pic {
+  height: 20rem;
+  width: 35rem;
+  border: 5px solid black;
+  box-shadow: 8px 8px #0a0a0a;
+}
+
+.project:nth-child(2) .project_pic {
+  height: 22rem;
+  width: 35rem;
+  border: 5px solid black;
+  box-shadow: 8px 8px #0a0a0a;
+}
+
+.project:nth-child(3) .project_pic {
+  height: 22rem;
+  width: 35rem;
+  border: 5px solid black;
+  box-shadow: 8px 8px #0a0a0a;
+}
+
+.project:nth-child(4) .project_pic {
+  height: 22rem;
+  width: 38rem;
+  border: 5px solid black;
+  box-shadow: 8px 8px #0a0a0a;
+}
+
 
 /* .project:nth-child(6) {
   background-color: rgb(61,207,193);
