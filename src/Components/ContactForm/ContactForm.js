@@ -36,7 +36,7 @@ const ContactForm = () => {
         <input type="email" name="user_email" />
         <label>Message</label>
         <textarea name="message" />
-        <input type="submit" value="Send" />
+        <input className="formsub_btn"type="submit" value="Send" />
       </form>
     </div>
   );
