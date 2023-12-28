@@ -6,8 +6,8 @@ import Img2 from "../../assets/myPics/Img2.png"
 function Blob() {
   return (
     <Draggable>
-            <div class="blop_wrap">
-                <div class="circle">
+            <div className="blop_wrap">
+                <div className="circle">
                      <img src={Img2} alt=''/>
                 </div>
             </div>

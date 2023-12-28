@@ -1,0 +1,7 @@
+.contactFormWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4rem;
+    border-bottom: 5px solid black;
+}

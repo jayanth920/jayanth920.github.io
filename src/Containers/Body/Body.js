@@ -1,3 +1,4 @@
+import Contact from "../../Sections/Contact/Contact";
 import Intro from "../../Sections/Intro/Intro";
 import Projects from "../../Sections/Projects/Projects";
 import TechStack from "../../Sections/TechStack/TechStack";
@@ -11,6 +12,7 @@ function Body() {
       <Intro />
       <TechStack />
       <Projects />
+      <Contact />
     </div>
 
 

@@ -12,11 +12,11 @@ function StackBar() {
         <div className="mongo"></div>
         <div className="firebase"></div> */}
       <div className="blob_wrap"><div className="circle">          
-      <div class="js">
+      <div className="js">
         <svg
           stroke="currentColor"
           fill="currentColor"
-          stroke-width="0"
+          strokeWidth="0"
           role="img"
           viewBox="0 0 24 24"
           height="5em"
@@ -31,11 +31,11 @@ function StackBar() {
         </div>
       </div>
       <div className="blob_wrap"><div className="circle">
-      <div class="html">
+      <div className="html">
         <svg
           stroke="currentColor"
           fill="currentColor"
-          stroke-width="0"
+          strokeWidth="0"
           role="img"
           viewBox="0 0 24 24"
           height="5em"
@@ -49,11 +49,11 @@ function StackBar() {
       </div>
       </div></div>
       <div className="blob_wrap"><div className="circle">
-      <div class="css">
+      <div className="css">
         <svg
           stroke="currentColor"
           fill="currentColor"
-          stroke-width="0"
+          strokeWidth="0"
           role="img"
           viewBox="0 0 24 24"
           height="5em"
@@ -66,11 +66,11 @@ function StackBar() {
         <p>CSS</p>
       </div>      </div></div>
       <div className="blob_wrap"><div className="circle">
-      <div class="react">
+      <div className="react">
         <svg
           stroke="currentColor"
           fill="currentColor"
-          stroke-width="0"
+          strokeWidth="0"
           role="img"
           viewBox="0 0 24 24"
           height="5em"
@@ -83,11 +83,11 @@ function StackBar() {
         <p>React</p>
       </div>      </div></div>
       <div className="blob_wrap"><div className="circle">
-      <div class="node">
+      <div className="node">
         <svg
           stroke="currentColor"
           fill="currentColor"
-          stroke-width="0"
+          strokeWidth="0"
           role="img"
           viewBox="0 0 24 24"
           height="5em"
@@ -100,11 +100,11 @@ function StackBar() {
         <p>Node JS</p>
       </div>      </div></div>
       <div className="blob_wrap"><div className="circle">
-      <div class="mon">
+      <div className="mon">
         <svg
           stroke="currentColor"
           fill="currentColor"
-          stroke-width="0"
+          strokeWidth="0"
           role="img"
           viewBox="0 0 24 24"
           height="5em"
@@ -117,11 +117,11 @@ function StackBar() {
         <p>MongoDB</p>
       </div>      </div></div>
       <div className="blob_wrap"><div className="circle">
-      <div class="fire">
+      <div className="fire">
         <svg
           stroke="currentColor"
           fill="currentColor"
-          stroke-width="0"
+          strokeWidth="0"
           role="img"
           viewBox="0 0 24 24"
           height="5em"

@@ -4,6 +4,7 @@
   "homepage": "https://jayanth920.github.io/",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "@react-spring/parallax": "^9.7.3",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -16,6 +17,7 @@
     "react-fast-marquee": "^1.6.2",
     "react-scripts": "5.0.1",
     "sass": "^1.69.5",
+    "styled-components": "^6.1.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

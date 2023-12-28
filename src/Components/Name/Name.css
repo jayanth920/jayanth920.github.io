@@ -19,7 +19,6 @@
     overflow: hidden;
     cursor: url(../../assets/cursors/windows95-cursor.png),auto;
     letter-spacing: -1px;
-
 }
 
 .title{
@@ -32,6 +31,4 @@
     line-height: 3rem;
     white-space: nowrap;
     font-weight: 500;
-    
-
 }
