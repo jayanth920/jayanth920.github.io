@@ -5,7 +5,7 @@ const Runner= () =>{
   return (
     <div className="ticker__wrap">
     <Marquee 
-    speed={140}
+    speed={60}
     pauseOnHover = {true}>
         <div className="ticker__item">
         HOPE YOUR HAVING A GREAT DAY&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
