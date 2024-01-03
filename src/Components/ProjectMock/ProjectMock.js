@@ -1,20 +1,20 @@
 
 
 const ProjectMock = [
-    {
-      id: 1,
-      name: 'CouchWatch',
-      technologies: ['ReactJS', 'RestAPI'],
-      description: "An app that lets you choose movies, and for the movies which are new it lets you go to the movie's official booking page. It also lets you go the official IMDB rating page.",
-      imageUrl: "https://i.imgur.com/2ZwKQ0u.png",
-    },
-    {
-      id: 2,
-      name: 'CHATIFY',
-      technologies: ['ReactJS', 'Firebase', 'Redux', 'Sass', 'CSS'],
-      description: `Chatify v1.0 is a messaging app that lets you connect with people from all around the world. Whether you're at home or on the go, Chatify allows you to chat with anyone, anytime, anywhere.`,
-      imageUrl: "https://i.imgur.com/mlQ4vrY.png",
-    },
+  {
+    id: 1,
+    name: 'CHATIFY',
+    technologies: ['ReactJS', 'Firebase', 'Redux', 'Sass', 'CSS'],
+    description: `Chatify v1.0 is a messaging app that lets you connect with people from all around the world. Whether you're at home or on the go, Chatify allows you to chat with anyone, anytime, anywhere.`,
+    imageUrl: "https://i.imgur.com/mlQ4vrY.png",
+  },
+  {
+    id: 2,
+    name: 'CouchWatch',
+    technologies: ['ReactJS', 'RestAPI'],
+    description: "An app that lets you choose movies, and for the movies which are new it lets you go to the movie's official booking page. It also lets you go the official IMDB rating page.",
+    imageUrl: "https://i.imgur.com/2ZwKQ0u.png",
+  },
     {
       id: 3,
       name: 'MEMORY CARD GAME',
