@@ -3,10 +3,20 @@ import emailjs from "@emailjs/browser";
 import "./ContactForm.css";
 
 const ContactForm = () => {
+  
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
+    
+    const name = form.current.user_name.value.trim();
+    const email = form.current.user_email.value.trim();
+    const message = form.current.message.value.trim();
+
+    if (!name || !email || !message) {
+      console.log("Name, Email, or Message is empty. Not sending email.");
+      return;
+    }
 
     emailjs
       .sendForm(
@@ -36,7 +46,7 @@ const ContactForm = () => {
         <input type="email" name="user_email" />
         <label>Message</label>
         <textarea name="message" />
-        <input className="formsub_btn"type="submit" value="Send" />
+        <input className="formsub_btn" type="submit" value="Send" />
       </form>
     </div>
   );
