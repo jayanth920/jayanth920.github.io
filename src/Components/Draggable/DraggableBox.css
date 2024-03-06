@@ -3,11 +3,12 @@
     box-shadow: 8px 8px #0a0a0a;
     color: #fff;
     position: absolute;
-    top: 160px;
-    right: 20px;
-    width: 200px;
-    height: 200px;
-    padding: 15px;
+    position: absolute;
+    top: 155px;
+    right: 27px;
+    width: 137px;
+    height: 123px;
+    padding: 16px;
     overflow: hidden;
     cursor: url(../../assets/cursors/windows95-grab.png), auto;
   }
@@ -15,8 +16,10 @@
   #box:before {
     content: "";
     position: absolute;
-    width: 150%;
-    height: 150%;
+    top:0;
+    left: 2px;
+    width: 14rem;
+    height: 14rem;
     background: repeating-linear-gradient(#fff 0%, #fff 7.5px, #0a0a0a 7.5px, #0a0a0a 15px, #fff 15px, #fff 22.5px, #0a0a0a 22.5px, #0a0a0a 30px);
     transform: translate(-20%) translateY(-20%) rotate(-45deg);
     animation: animate 20s linear infinite;

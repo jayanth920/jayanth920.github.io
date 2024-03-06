@@ -17,8 +17,8 @@
   align-items: center;
 }
 .project_pic {
-  height: 20rem;
-  width: 35rem;
+  height: 40vh;
+  width: 35vw;
   border: 5px solid black;
   box-shadow: 8px 8px #0a0a0a;
 }
@@ -76,29 +76,29 @@
 }
 
 .project:nth-child(1) .project_pic {
-  height: 20rem;
-  width: 35rem;
+  height: 40vh;
+  width: 35vw;
   border: 5px solid black;
   box-shadow: 8px 8px #0a0a0a;
 }
 
 .project:nth-child(2) .project_pic {
-  height: 23rem;
-  width: 35rem;
+  height: 40vh;
+  width: 35vw;
   border: 5px solid black;
   box-shadow: 8px 8px #0a0a0a;
 }
 
 .project:nth-child(3) .project_pic {
-  height: 22rem;
-  width: 37rem;
+  height: 40vh;
+  width: 35vw;
   border: 5px solid black;
   box-shadow: 8px 8px #0a0a0a;
 }
 
 .project:nth-child(4) .project_pic {
-  height: 20rem;
-  width: 38rem;
+  height: 40vh;
+  width: 35vw;
   border: 5px solid black;
   box-shadow: 8px 8px #0a0a0a;
 }

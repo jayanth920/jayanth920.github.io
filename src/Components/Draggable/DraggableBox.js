@@ -9,7 +9,7 @@ export const DraggableBox = () => {
 
   <div id='box'>
   <div className="content">
-        <p>FRONT-END</p>
+        <p>FRONT END</p>
         <p>🤍</p>
         </div>
   </div>

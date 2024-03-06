@@ -2,8 +2,9 @@ import Marquee from "react-fast-marquee";
 import './Runner.css'
 
 const Runner= () =>{
+
   return (
-    <div className="ticker__wrap">
+    <div className="ticker__wrap"  >
     <Marquee 
     speed={60}
     pauseOnHover = {true}>

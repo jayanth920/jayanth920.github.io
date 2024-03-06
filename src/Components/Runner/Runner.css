@@ -1,6 +1,7 @@
 .ticker__wrap{
     width: 100vw;
 }
+
 .ticker__wrap .ticker__item {
     display: inline-block;
     font-size: 0.875rem;

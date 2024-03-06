@@ -17,7 +17,7 @@
     padding: 7px;
     outline: none;
     border-radius: 5px;
-    border: 1px solid rgb(220, 220, 220);
+    border: 2px solid rgb(175, 169, 169);
   }
   
   .contact-form form input:focus {
@@ -33,7 +33,7 @@
     padding: 7px;
     outline: none;
     border-radius: 5px;
-    border: 1px solid rgb(220, 220, 220);
+    border: 2px solid rgb(175, 169, 169);
   }
   
   .contact-form form textarea:focus {
@@ -44,14 +44,36 @@
     margin-top: 1rem;
   }
   
-  .contact-form form input[type="submit"] {
-    margin-top: 2rem;
-    cursor: pointer;
-    background: rgb(249, 105, 14);
-    color: white;
-    border: none;
+.contact-form .formsub_btn {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 0px;
+  margin-top:3vh;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  cursor: url(../../assets/cursors/windows95-cursor.png),auto;
+}
+
+.formsub_btn:active {
+  border-radius: 0px;
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .formsub_btn {
+    border-radius: 0px;
+    padding: 0.25em 0.75em;
   }
-  
-  .formsub_btn{
-    font-family: "Beatrice";
-  }
+}
