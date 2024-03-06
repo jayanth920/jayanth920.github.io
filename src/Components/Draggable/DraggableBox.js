@@ -1,19 +1,17 @@
-import React from 'react';
-import Draggable from 'react-draggable';
-import './DraggableBox.css' 
+import React from "react";
+import Draggable from "react-draggable";
+import "./DraggableBox.css";
 
 export const DraggableBox = () => {
-  const ref = React.createRef()
+  const ref = React.createRef();
   return (
     <Draggable ref={ref}>
-
-  <div id='box'>
-  <div className="content">
-        <p>FRONT END</p>
-        <p>🤍</p>
+      <div id="box">
+        <div className="content">
+          <p>DESIGN</p>
+          <p>🤍</p>
         </div>
-  </div>
-
+      </div>
     </Draggable>
   );
 };
