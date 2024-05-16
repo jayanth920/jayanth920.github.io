@@ -7,6 +7,20 @@ import {
   NodeJS,
   MongoDB,
   Firebase,
+  C,
+  Cpp,
+  Java,
+  Mongoose,
+  Express,
+  Prisma,
+  Docker,
+  Cloudflare,
+  Nextjs,
+  Mysql,
+  Postgresql,
+  Github,
+  Postman
+
 } from "../Techs/Techs";
 
 function TechBox() {
@@ -19,6 +33,20 @@ function TechBox() {
       <NodeJS />
       <MongoDB />
       <Firebase />
+      <C/>
+      <Cpp/>
+      <Java/>
+      <Mongoose/>
+      <Express/>
+      <Prisma/>
+      <Docker/>
+      <Cloudflare/>
+      <Nextjs/>
+      <Mysql/>
+      <Postgresql/>
+      <Github/>
+      <Postman/>
+
     </div>
   );
 }
