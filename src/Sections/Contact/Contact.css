@@ -4,10 +4,26 @@
 
 .contactFormWrapper{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     padding-bottom: 4rem;
-    border-bottom: 5px solid black;
+    /* border-bottom: 5px solid black; */
     gap: 10px;
+    margin-left: 60px;
 }
 
+@media only screen and (max-width: 480px) {
+    .contactWrapper{
+        margin-top: 5vh;
+    }
+    
+    .contactFormWrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 4rem;
+        border-bottom: 5px solid black;
+        gap: 10px;
+        margin-left: 30px;
+    }
+  }

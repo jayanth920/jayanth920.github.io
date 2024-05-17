@@ -12,12 +12,31 @@
   }
   
   .contact-form form input {
-    width: 100%;
+    width: 50vw;
     height: 35px;
     padding: 7px;
     outline: none;
     border-radius: 5px;
     border: 2px solid rgb(175, 169, 169);
+  }
+
+  @media only screen and (max-width: 480px) {
+    .contact-form form {
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      width: 100%;
+      font-size: 16px;
+    }
+    .contact-form form input {
+      width: 100%;
+      height: 35px;
+      padding: 7px;
+      outline: none;
+      border-radius: 5px;
+      border: 2px solid rgb(175, 169, 169);
+    }
+  
   }
   
   .contact-form form input:focus {
@@ -50,6 +69,7 @@
   letter-spacing: 2px;
   text-decoration: none;
   text-transform: uppercase;
+  width: 20vw;
   border-radius: 0px;
   margin-top:3vh;
   color: #000;

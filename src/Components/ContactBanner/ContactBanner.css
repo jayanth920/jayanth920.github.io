@@ -9,3 +9,15 @@
     margin: 60px 0px 40px 60px;
     cursor: url(../../assets/cursors/windows95-cursor.png),auto;
   }
+
+
+
+  @media only screen and (max-width: 480px) {
+
+    .cntBanner{
+      font-size: 3rem;
+      margin: 60px 0px 40px 0px;
+      text-align: center;
+    }
+
+  }

@@ -9,3 +9,17 @@
   font-size: 4rem;
   color: black;
 }
+
+@media only screen and (max-width: 480px) {
+  .tech-banner {
+    height: fit-content;
+    width: auto;
+    letter-spacing: 10px;
+    text-align: left;
+    margin: 0px 0px 60px 60px;
+    cursor: url(../../assets/cursors/windows95-cursor.png),auto;
+    font-family: "Beatrice";
+    font-size: 4rem;
+    color: black;
+  }
+}

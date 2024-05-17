@@ -46,3 +46,8 @@ body{
     font-family: "BeatriceDeck";
     src: url(./assets/fonts/BeatriceDeck.otf);
   }
+
+  @font-face{
+    font-family: "Clever";
+    src: url(./assets/fonts/Clever-Black.otf);
+  }

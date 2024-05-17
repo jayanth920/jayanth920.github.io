@@ -1,0 +1,17 @@
+
+@media only screen and (max-width: 768px) {
+    .projects{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .projects{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+  }

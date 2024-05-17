@@ -1,24 +1,72 @@
 .project_wrap {
   font-family: "Beatrice";
-  margin: 0;
-  padding: 0;
   display: flex;
   flex-wrap: wrap;
+  justify-content:flex-start;
   gap: 0;
-  width: 100vw;
+  /* width: 100vw; */
 }
 
 .project {
-  width: 50vw;
-  height: 94vh;
+  width: 44.359rem;
+  height: auto;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 2rem;
+  padding: 5rem 3rem 5rem 3rem;
 }
+
+@media screen and (max-width: 1189px) {
+  .project_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 0;
+    /* width: 100vw; */
+  }
+  .project {
+    padding: 5rem 3rem 5rem 0rem;
+  }
+  }
+@media screen and (max-width: 750px) {
+  .project_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 0;
+    /* width: 100vw; */
+  }
+  .project {
+    padding: 5rem 3rem 5rem 0rem;
+  }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .project_wrap {
+      justify-content:center;
+      /* width: 100vw; */
+    }
+    .project {
+      width: 100vw;
+      height: auto;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      padding: 5rem 3rem 5rem 0rem;
+    }
+  }
+
+
+
 .project_pic {
-  height: 40vh;
-  width: 35vw;
+  max-height: 40vh;
+  max-width: 35vw;
   border: 5px solid black;
   box-shadow: 8px 8px #0a0a0a;
 }
@@ -35,78 +83,38 @@
 .project:nth-child(1) {
   /* Styles for the second .project */
   background-color: rgb(255, 112, 81);
-  border-top: 5px solid black;
-  border-right: 2.5px solid black;
-  border-bottom: 2.5px solid black;
-  border-left: 5px solid black;
+  border: 5px solid black;
 }
 
 .project:nth-child(2) {
   background-color: rgb(61, 207, 193);
-  border-top: 5px solid black;
-  border-left: 2.5px solid black;
-  border-bottom: 2.5px solid black;
-  border-right: 5px solid black;
+  border: 5px solid black;
 }
 
 .project:nth-child(3) {
   background-color: rgb(255, 201, 0);
-  border-top: 2.5px solid black;
-  border-right: 2.5px solid black;
-  border-bottom: 2.5px solid black;
-  border-left: 5px solid black;
+  border: 5px solid black;
 }
 
 .project:nth-child(4) {
   /* Styles for the second .project */
   background-color: rgb(220, 75, 210);
-  border-top: 2.5px solid black;
-  border-left: 2.5px solid black;
-  border-bottom: 2.5px solid black;
-  border-right: 5px solid black;
+  border: 5px solid black;
 }
 
 .project:nth-child(5) {
   /* Styles for the second .project */
   background-color: rgb(255, 112, 81);
-  border-top: 2.5px solid black;
-  border-right: 2.5px solid black;
-  border-bottom: 2.5px solid black;
-  border-left: 5px solid black;
+  border: 5px solid black;
+
 }
 
-.project:nth-child(1) .project_pic {
-  height: 40vh;
-  width: 35vw;
-  border: 5px solid black;
-  box-shadow: 8px 8px #0a0a0a;
-}
-
-.project:nth-child(2) .project_pic {
-  height: 40vh;
-  width: 35vw;
-  border: 5px solid black;
-  box-shadow: 8px 8px #0a0a0a;
-}
-
-.project:nth-child(3) .project_pic {
-  height: 40vh;
-  width: 35vw;
-  border: 5px solid black;
-  box-shadow: 8px 8px #0a0a0a;
-}
-
-.project:nth-child(4) .project_pic {
-  height: 40vh;
-  width: 35vw;
-  border: 5px solid black;
-  box-shadow: 8px 8px #0a0a0a;
-}
 
 .url-buttons{
   display: flex;
   margin-top: -4px;
   gap: 15px;
+  flex-wrap: wrap;
 }
 
 .name-buttons{
@@ -229,16 +237,18 @@
 }
 .project_placeholder {
   display: flex;
-  flex-wrap: wrap;
+  width: 44.359rem;
+  /* flex-wrap: wrap; */
   justify-content: center;
   align-items: center;
-  width: 50vw;
-  height: 94vh;
-  border-right: 5px solid black;
+  /* width: 50vw;
+  height: 94vh; */
+  /* border-right: 5px solid black;
   border-top: 2.5px solid black;
   border-left: 2.5px solid black;
-  border-bottom: 5px solid black;
+  border-bottom: 5px solid black; */
   background-color: rgb(61, 207, 193);
+  border: 5px solid black;
 }
 
 .placeimg {
@@ -246,4 +256,29 @@
   width: 35rem;
   box-shadow: 8px 8px #0a0a0a;
   border: 5px solid black;
+}
+
+@media only screen and (max-width: 480px) {
+  .project_placeholder {
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    /* width: 50vw;
+    height: 94vh; */
+    /* border-right: 5px solid black;
+    border-top: 2.5px solid black;
+    border-left: 2.5px solid black;
+    border-bottom: 5px solid black; */
+    background-color: rgb(61, 207, 193);
+    
+  }
+  .placeimg {
+    height: 30vh;
+    width: 60vw;
+    box-shadow: 8px 8px #0a0a0a;
+    border: 5px solid black;
+  }
 }
